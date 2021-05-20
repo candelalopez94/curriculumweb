@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV WEB</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="STYLESHEET"  type="text/css" href="style.css">
+    <link rel="shortcut icon" href="imagenes/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">  
+    <script src="https://kit.fontawesome.com/c7a8245af0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <h2>Web Resume</h2>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="experience.html">Experience</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="coverletter.html">Cover Letter</a></li>
+    </ul>
+    <div class="hide">
+      <i class="fa fa-bars" aria-hidden="true"></i> Menu
+    </div>
+  </nav>
+  
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script>
+      $(".hide").on('click', function() {
+        $("nav ul").toggle('slow');
+      })
+    </script>
+
+
+  <main>
+      
+    <h1 class="education"> Education </h1>
+
+   <div id="acordion">
+      <div class="estudio">
+        <div class="tituloestudio">
+         <p clas="tituloestudio">Accountant</p>
+        </div>
+       <div class="info"> 
+         <p class="info">Universidad Nacional de Mar de Plata</p>
+         <p class="info">graduated in August 2019</p>
+       </div>
+      </div>
+  
+      <div class="estudio"> 
+        <div class="tituloestudio">
+          <p clas="tituloestudio">Full Stack Python</p>
+        </div>
+        <div class="info"> 
+          <p class="info">Goverment of the city of  Buenos Aires</p>
+          <p class="info">Graduated in July 2021 </p> 
+        </div>
+      </div>
+
+      <div class="estudio">   
+        <div class="tituloestudio">
+         <p clas="tituloestudio">Master in digital marketing and web analytics</p>
+        </div>
+        <div class="info"> 
+         <p class="info">Neetwork Business school</p>
+         <p class="info">Graduated in July 2021</p> 
+        </div>  
+      </div>
+    </div>
+    
+    <h1 class="education"> Language</h1>
+
+    <div id="acordion">
+      <div class="estudio">
+        <div class="tituloestudio">
+         <p clas="tituloestudio">Spanish</p>
+        </div>
+       <div class="info"> 
+         <p class="info">Mother Tongue</p>
+       </div>
+      </div>
+  
+      <div class="estudio"> 
+        <div class="tituloestudio">
+          <p clas="tituloestudio">English</p>
+        </div>
+        <div class="info"> 
+          <p class="info">Listening B2</p>
+          <p class="info">Reading and Spoken B2</p>
+          <p class="info">Writing B1 </p>   
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+      <div class="redes">
+       <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+       <a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+       <a href="https://www.linkedin.com/in/candela-a-lopez"><i class="fab fa-linkedin"></i></a>
+       <a href="https://www.twitter.com/"><i class="fab fa-twitter-square"></i></a>
+      </div>
+      <div>
+        <p>© Candela Lopez</p>
+      </div>
+  </footer>
+
+
+
+</body>
+</html>

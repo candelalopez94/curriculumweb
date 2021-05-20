@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV WEB</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="STYLESHEET"  type="text/css" href="style.css">
+    <link rel="shortcut icon" href="imagenes/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">  
+    <script src="https://kit.fontawesome.com/c7a8245af0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <h2>Web Resume</h2>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="experience.html">Experience</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="coverletter.html">Cover Letter</a></li>
+    </ul>
+    <div class="hide">
+      <i class="fa fa-bars" aria-hidden="true"></i> Menu
+    </div>
+  </nav>
+  
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script>
+      $(".hide").on('click', function() {
+        $("nav ul").toggle('slow');
+      })
+    </script>
+
+  <main>
+    
+    <h1 class="coverletter"> Cover Letter </h1>
+
+    <div class="letter">
+      <p>Dear employer or client</p>
+      <br>
+      <p>Some years ago I finished my first degree at the National University of Mar del Plata as an Accountant, I have more than 4 years of experience in accounting control and management. I am currently specializing in IT professions, I have completed my Master in Digital Marketing and Web Analytics and a Full Stack Python course, but that's not all, I continue to study to this day as a Community Manager and data analyst, and many others courses that I take when I have free time.</p>
+      <p>I am a very dynamic, proactive and very dedicated person, I enjoy learning new things and growing professionally in various fields.</p>
+      <p>I have strong communication skills, my mother tongue is Spanish but I have very good knowledge of English.</p>
+      <p>I can work under pressure and in a fast growing environment. I like challenges and participate in new projects.</p>
+      <p>If you are looking for a profile like mine, do not hesitate to contact me, it is always a good time for a new possibility.</p>
+      <p>Best Regards,</p>
+      <br>
+      <p>Candela Lopez</p>
+    </div>
+
+    <section class="download">
+      <button> <a href="pdfs/Cover letter.pdf" download="download coverletter" >Download CL</a>   
+      </button>
+    </section>
+
+
+
+  </main>
+
+
+  <footer>
+    <div class="redes">
+     <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+     <a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+     <a href="https://www.linkedin.com/in/candela-a-lopez"><i class="fab fa-linkedin"></i></a>
+     <a href="https://www.twitter.com/"><i class="fab fa-twitter-square"></i></a>
+    </div>
+    <div>
+      <p>© Candela Lopez</p>
+    </div>
+  </footer>
+
+
+</body>
+</html>

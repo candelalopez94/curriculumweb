@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV WEB</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="STYLESHEET"  type="text/css" href="style.css">
+    <link rel="shortcut icon" href="imagenes/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">  
+    <script src="https://kit.fontawesome.com/c7a8245af0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <h2>Web Resume</h2>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="experience.html">Experience</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="coverletter.html">Cover Letter</a></li>
+    </ul>
+    <div class="hide">
+      <i class="fa fa-bars" aria-hidden="true"></i> Menu
+    </div>
+  </nav>
+  
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script>
+      $(".hide").on('click', function() {
+        $("nav ul").toggle('slow');
+      })
+    </script>
+ 
+    <section class="portada">
+      
+      <div class="portada_foto1">
+        <img src="imagenes/Foto 1.png" alt="name">
+      </div>
+      <div class="portada_foto2">
+        <img src="Imagenes/Foto 2.png" alt="photo">
+      </div>
+      
+    </section>
+
+  </header>
+
+
+  <main>
+
+   <section class="aboutme">
+    <div class="aboutme_foto"> 
+      <img src="Imagenes/Foto 3.png" alt="about me">
+    </div>
+    <div class="aboutme_datos">
+		  <i class="fas fa-city">    <span>City</span> </i> <p> Miramar, Buenos Aires, Argentina</p>
+       <br>
+       <br>
+      <i class="fas fa-birthday-cake">     <span>Birth </span></i>  <p>01/31/1994 Argentina</p>
+       <br>
+       <br>
+      <i class="fas fa-envelope-open-text">    <span>Email</span> </i>  <p>candelalopez_94@hotmail.com.ar</p>  
+    </div>
+   </section>
+
+
+   <section class="download"> <button> <a href="pdfs/Curriculum Vitae.pdf" download="download cv" >Download CV</a>   
+         </button>
+   </section>
+ 
+
+   <section Class="formulario"> 
+
+    <h1>Contact me</h1>
+  
+     <form action="enviar.php" required method="post">
+		   <label>Name</label>
+       <br>
+	     <input Type="text"  required class="campo"> </input>
+	       <br>
+	       <br>
+	     <label>Mail</label>
+       <br>
+	     <input Type="text"  required class="campo" > </input>
+	       <br>
+	       <br>
+	     <label>Messege</label>
+       <br>
+	     <textarea name="message" required class="campo"></textarea>
+	       <br>
+	       <br>
+         <button name="submit" type="submit" class="submit">Submit</button>
+	       <br>
+	       <br>
+	    </form> 
+
+   </section>
+ </main>  
+  
+
+
+ <footer>
+   <div class="redes">
+    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+    <a href="https://www.linkedin.com/in/candela-a-lopez"><i class="fab fa-linkedin"></i></a>
+    <a href="https://www.twitter.com/"><i class="fab fa-twitter-square"></i></a>
+   </div>
+   <div>
+     <p>© Candela Lopez</p>
+   </div>
+
+ </footer>
+  
+</BODY>
+
+
+
+</html>
+ 
